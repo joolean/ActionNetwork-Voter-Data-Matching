@@ -1,3 +1,5 @@
+#Before running, input the API key in cell 3 and update all file paths as needed
+
 import marimo
 
 __generated_with = "0.8.22"
@@ -18,7 +20,6 @@ def __(people_df, pl):
         import marimo as mo
         return mo
 
-    #input api key 
     @app.cell
     def _(mo):
         api_key_input = ""
