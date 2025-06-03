@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ActionNetwork-Voter-Data-Matching"
+version = "0.1.0"
+description = ""
+authors = ["Avonlea Fisher <fisheravonlea@gmail.com>", "Julian Graham <joolean@gmail.com>"]
+license = "Proprietary"
+repository = "https://github.com/AvonleaFisher/Solidarity-Tech-Voter-Data-Matching"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+duckdb = "*"
+fuzzywuzzy = "*"
+marimo = "*"
+nicknames = "*"
+numpy = "*"
+pandas = "*"
+polars = "*"
+pyarrow = "*"
+requests = "*"
+sqlglot = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
